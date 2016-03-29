@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <LibDir>C:\dev\lib</LibDir>
+    <NanaDir>$(LibDir)\nana</NanaDir>
+    <NanaIncludeDir>$(NanaDir)\include</NanaIncludeDir>
+    <NanaLibDir>$(NanaDir)\build\bin</NanaLibDir>
+    <GoogleTestDir>$(LibDir)\googletest\googletest</GoogleTestDir>
+    <GoogleTestIncludeDir>$(GoogleTestDir)\include</GoogleTestIncludeDir>
+    <GoogleTestLibDir>$(GoogleTestDir)\msvc\$(PlatformShortName)\$(Configuration)</GoogleTestLibDir>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="LibDir">
+      <Value>$(LibDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="NanaDir">
+      <Value>$(NanaDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="NanaIncludeDir">
+      <Value>$(NanaIncludeDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="NanaLibDir">
+      <Value>$(NanaLibDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GoogleTestDir">
+      <Value>$(GoogleTestDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GoogleTestIncludeDir">
+      <Value>$(GoogleTestIncludeDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GoogleTestLibDir">
+      <Value>$(GoogleTestLibDir)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
