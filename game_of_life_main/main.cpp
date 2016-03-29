@@ -4,7 +4,7 @@
 
 int main()
 {
-	auto model = std::make_shared<Model>(58,58);
+	auto model = std::make_shared<Model>();
 	auto view = std::make_unique<View>(model);
 	auto controller = Controller::Create(model, std::move(view));
 
