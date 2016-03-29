@@ -16,4 +16,4 @@ Conway's Game of Life GUI implementation using the Nana C++ library
 * Leverage CMake to manage the build process
 * Test on Linux and OS X
 
-Please feel free to open bugs and submit pull requests.
+**Please feel free to open bugs and submit pull requests.**
