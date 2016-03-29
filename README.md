@@ -9,7 +9,7 @@ Conway's Game of Life GUI implementation using the Nana C++ library
 * [Nana C++ Library](http://www.nanapro.org/)
 * [Google Test](https://github.com/google/googletest)
 
-## TODO
+## To do
 * Add architecture diagram
 * Figure out why increasing the game grid size to 58x58 or above prevents the UI from rendering
 * Investigate if a simpler control can be used for the game cells instead of `nana/gui/widgets/label.hpp`
